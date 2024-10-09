@@ -29,32 +29,32 @@ set_term_config() {
 				# Colors (Zombie-Night color scheme) nord Rice
 				colors:
 				  primary:
-				    background: '#0E1113'
-				    foreground: '#afb1db'
+				    background: '#2e3440'
+				    foreground: '#d8dee9'
 
 				  normal:
-				    black:   '#2d2b36'
-				    red:     '#e7034a'
-				    green:   '#61b33e'
-				    yellow:  '#ffb964'
-				    blue:    '#5884d4'
-				    magenta: '#7a44e3'
-				    cyan:    '#7df0f0'
-				    white:   '#faf7ff'
+				    black:   '#3b4252'
+				    red:     '#bf616a'
+				    green:   '#a3be8c'
+				    yellow:  '#ebcb8b'
+				    blue:    '#81a1c1'
+				    magenta: '#b48ead'
+				    cyan:    '#88c0d0'
+				    white:   '#e5e9f0'
 
 				  bright:
-				    black:   '#373542'
-				    red:     '#e71c5b'
-				    green:   '#6fb352'
-				    yellow:  '#ffb964'
-				    blue:    '#5f90ea'
-				    magenta: '#8656e3'
-				    cyan:    '#97f0f0'
-				    white:   '#fdfcff'
+				    black:   '#4c566a'
+				    red:     '#bf616a'
+				    green:   '#a3be8c'
+				    yellow:  '#ebcb8b'
+				    blue:    '#81a1c1'
+				    magenta: '#b48ead'
+				    cyan:    '#8fbcbb'
+				    white:   '#eceff4'
     
 				  cursor:
-				     cursor: '#8656e3'
-				     text:	'#0b0b12'
+				     cursor: '#d8dee9'
+				     text:	'#2e3440'
 _EOF_
 }
 
