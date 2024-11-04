@@ -15,10 +15,10 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "JetBrainsMono Nerd Font Bold 9";
-    background:                  #0E1113F7;
+    background:                  #434c5e;
     background-alt:              #0E1113;
-    foreground:                  #afb1db;
-    selected:                    #3d7fea;
+    foreground:                  #ECEFF4;
+    selected:                    #ccffeedd;
 }
 
 /*****----- Main Window -----*****/
