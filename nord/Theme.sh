@@ -10,9 +10,9 @@ set_bspwm_config() {
 		bspc config border_width 3
 		bspc config top_padding 48
 		bspc config bottom_padding 2
-		bspc config normal_border_color "#21222c"
-		bspc config active_border_color "#353c52"
-		bspc config focused_border_color "#353c52"
+		bspc config normal_border_color "#d8dee9"
+		bspc config active_border_color "#5e81ac"
+		bspc config focused_border_color "#81a1c1"
 		bspc config presel_feedback_color "#ff79c6"
 		bspc config left_padding 2
 		bspc config right_padding 2
@@ -81,18 +81,18 @@ set_dunst_config() {
 		cat >> "$HOME"/.config/bspwm/dunstrc <<- _EOF_
 				[urgency_low]
 				timeout = 3
-				background = "#0E1113"
-				foreground = "#afb1db"
+				background = "#434c5e"
+				foreground = "#d8dee9"
 
 				[urgency_normal]
 				timeout = 6
-				background = "#0E1113"
-				foreground = "#afb1db"
+				background = "#bf616a"
+				foreground = "#d8dee9"
 
 				[urgency_critical]
 				timeout = 0
-				background = "#0E1113"
-				foreground = "#afb1db"
+				background = "#bf616a"
+				foreground = "#d8dee9"
 _EOF_
 }
 
